@@ -111,3 +111,7 @@ The architecture for the ecommerce chat assistant involves a multi-tiered system
 - Adopts CI/CD pipelines for automated testing and deployment, ensuring a smooth development lifecycle.
 ## HIGH LEVEL ARCHITECTURE DIAGRAM
 
+![](https://github.com/Sakil786/Design-an-Architecture-for-building-a-Chat-Assistant-for-an-ecommerce-platform/blob/main/image1.png)
+
+## Explore, Appreciate, and Give the Repository a Shining ⭐
+Feel free to explore the repository and show your appreciation by giving it a star⭐! Your support means a lot! 😉
