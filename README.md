@@ -61,3 +61,53 @@ The architecture for the ecommerce chat assistant involves a multi-tiered system
 - Relevant responses are generated and presented to the user in a natural language format.
 ### Knowledge Base Updates
 - The knowledge base is updated regularly to ensure the latest information is available to the chat assistant.
+
+### External Systems Integration
+- Integrates with external systems such as payment gateways and inventory management for real-time information.
+
+## WORKFLOW
+### User Interaction
+- Users interact with the chat assistant through the UI, asking questions or seeking assistance.
+### NLP Processing
+- User queries are processed by the NLP module to understand intent, entities, and sentiment.
+### Profile and Context Management
+- User profiles are checked to understand previous searches and preferences.
+- The context of the conversation is maintained for a personalised experience.
+### Search and Recommendation
+- Based on user history and preferences, the search and recommendation engine provides personalised product suggestions.
+### Occasion/Interest Recognition
+- The system recognizes occasions or interests mentioned in the user’s queries.
+### Query Resolution
+- Queries related to the catalogue, selected products, and FAQs are addressed using the respective modules.
+### Response Generation
+- Relevant responses are generated and presented to the user in a natural language format.
+### Knowledge Base Updates
+- The knowledge base is updated regularly to ensure the latest information is available to the chat assistant.
+## TECHNOLOGIES
+### Programming Languages
+- Python/R for NLP and backend processing.
+- JavaScript / React for UI.
+### NLP Frameworks
+- Large Language Models(LLM),Langchain/Llama Index,SpaCy, NLTK, or similar for natural language processing.
+### Database/Vector DB
+- MongoDB or a relational database for storing user profiles, product information, and knowledge base data.
+- Vector DB like Chroma/Faiss/Pinecone/Weaviate for storing embeddings
+### Machine Learning
+- Scikit-learn or Pytorch/TensorFlow for building and training recommendation models.
+### Web Framework
+- Flask or Django for backend development.
+### Communication
+- RESTful APIs for communication between components.
+## DEPLOYMENT
+### Cloud Deployment (AWS/Azure)
+- Leverages cloud services for scalability and flexibility.
+- Utilises cloud databases for storage and computation resources.
+- Deploys microservices in containers for modular and efficient scaling.
+### Containerization
+- Uses Docker for containerization to package the application and its dependencies.
+### Load Balancing
+- Implements load balancing for distributing user requests across multiple instances to ensure responsiveness.
+### Continuous Integration/Continuous Deployment (CI/CD)
+- Adopts CI/CD pipelines for automated testing and deployment, ensuring a smooth development lifecycle.
+## HIGH LEVEL ARCHITECTURE DIAGRAM
+
